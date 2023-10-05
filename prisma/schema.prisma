@@ -16,7 +16,7 @@ model users {
   name        String
   surname     String
   phoneNumber String?
-  email       String   
+  email       String   @unique
   address     String?
   address2    String?
   city        String?
