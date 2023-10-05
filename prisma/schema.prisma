@@ -12,9 +12,20 @@ datasource db {
 }
 
 model users {
-  id        Int      @id @default(autoincrement())
-  name      String
-  email     String   @unique
-  image     String
+  id          Int      @id @default(autoincrement())
+  name        String
+  surname     String
+  phoneNumber String
+  email       String   
+  address     String
+  address2    String
+  city        String
+  region      String
+  zip         String
+  country     String
+  companyName String
+  vatCode     String
+  fiscalCode  String
+  image       String
   createdAt DateTime @default(now())
 }
