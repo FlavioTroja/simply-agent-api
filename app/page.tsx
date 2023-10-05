@@ -26,7 +26,7 @@ export default function Home() {
       <Suspense fallback={<TablePlaceholder />}>
         <Table />
       </Suspense>
-      <p className="font-light text-gray-600 w-full max-w-lg text-center mt-6">
+      {/* <p className="font-light text-gray-600 w-full max-w-lg text-center mt-6">
         <Link
           href="https://vercel.com/postgres"
           className="font-medium underline underline-offset-4 hover:text-black transition-colors"
@@ -48,10 +48,10 @@ export default function Home() {
           Next.js App Router
         </Link>
         .
-      </p>
+      </p> */}
 
       <div className="flex justify-center space-x-5 pt-10 mt-10 border-t border-gray-300 w-full max-w-xl text-gray-600">
-        <Link
+        {/* <Link
           href="https://postgres-starter.vercel.app/"
           className="font-medium underline underline-offset-4 hover:text-black transition-colors"
         >
@@ -68,14 +68,14 @@ export default function Home() {
           className="font-medium underline underline-offset-4 hover:text-black transition-colors"
         >
           Drizzle
-        </Link>
+        </Link> */}
       </div>
 
       <div className="sm:absolute sm:bottom-0 w-full px-20 py-10 flex justify-between">
-        <Link href="https://vercel.com">
+        <Link href="https://overzoom.it">
           <Image
             src="/vercel.svg"
-            alt="Vercel Logo"
+            alt="Overzoom Logo"
             width={100}
             height={24}
             priority

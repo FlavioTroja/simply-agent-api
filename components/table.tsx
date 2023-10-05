@@ -27,7 +27,7 @@ export default async function Table() {
           >
             <div className="flex items-center space-x-4">
               <Image
-                src={user.image}
+                src={user.image || "https://icon-library.com/images/user-icon-jpg/user-icon-jpg-29.jpg"}
                 alt={user.name}
                 width={48}
                 height={48}
