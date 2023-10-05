@@ -74,15 +74,15 @@ export default function Home() {
       <div className="sm:absolute sm:bottom-0 w-full px-20 py-10 flex justify-between">
         <Link href="https://overzoom.it">
           <Image
-            src="/vercel.svg"
+            src="https://overzoom.it/wp-content/uploads/2019/08/Overzoom_logo_sito_black.png"
             alt="Overzoom Logo"
-            width={100}
+            width={130}
             height={24}
             priority
           />
         </Link>
         <Link
-          href="https://github.com/vercel/examples/tree/main/storage/postgres-prisma"
+          href="https://github.com/FlavioTroja/simply-agent-api"
           className="flex items-center space-x-2"
         >
           <Image
