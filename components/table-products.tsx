@@ -35,7 +35,7 @@ export default async function TableProducts() {
               />
               <div className="space-y-1">
                 <p className="font-medium leading-none">{product.name}</p>
-                <p className="text-sm text-gray-500">{product.pack}   € {product.price}</p>
+                <p className="text-sm text-gray-500">[ {product.pack} ] ..... € {product.price}</p>
               </div>
             </div>
             <p className="text-sm text-gray-500">{timeAgo(product.createdAt)}</p>
