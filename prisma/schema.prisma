@@ -32,8 +32,9 @@ model users {
 
 model products {
   id          Int      @id @default(autoincrement())
-  name        String   @unique
+  name        String
   pack        Int       
   price       Int
+  image       String?
   createdAt   DateTime @default(now())
 }

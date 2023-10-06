@@ -36,6 +36,94 @@ async function main() {
           'https://pbs.twimg.com/profile_images/1506792347840888834/dS-r50Je_400x400.jpg',
       },
     }),
+    prisma.products.upsert({
+      where: { id: 1 },
+      update: {},
+      create: {
+        name: 'Liste',
+        pack: 1,
+        price: 10,
+        image:
+          'https://icon-library.com/images/icon-product/icon-product-4.jpg',
+      },
+    }),
+    prisma.products.upsert({
+      where: { id: 2 },
+      update: {},
+      create: {
+        name: 'Liste',
+        pack: 11,
+        price: 100,
+        image:
+          'https://icon-library.com/images/icon-product/icon-product-4.jpg',
+      },
+    }),
+    prisma.products.upsert({
+      where: { id: 3 },
+      update: {},
+      create: {
+        name: 'Liste',
+        pack: 23,
+        price: 200,
+        image:
+          'https://icon-library.com/images/icon-product/icon-product-4.jpg',
+      },
+    }),
+    prisma.products.upsert({
+      where: { id: 4 },
+      update: {},
+      create: {
+        name: 'AML completo Max 5 interrogazioni',
+        pack: 1,
+        price: 25,
+        image:
+          'https://icon-library.com/images/icon-product/icon-product-4.jpg',
+      },
+    }),
+    prisma.products.upsert({
+      where: { id: 5 },
+      update: {},
+      create: {
+        name: 'AML completo Max 5 interrogazioni',
+        pack: 10,
+        price: 200,
+        image:
+          'https://icon-library.com/images/icon-product/icon-product-4.jpg',
+      },
+    }),
+    prisma.products.upsert({
+      where: { id: 6 },
+      update: {},
+      create: {
+        name: 'AML completo Max 5 interrogazioni',
+        pack: 40,
+        price: 400,
+        image:
+          'https://icon-library.com/images/icon-product/icon-product-4.jpg',
+      },
+    }),
+    prisma.products.upsert({
+      where: { id: 7 },
+      update: {},
+      create: {
+        name: 'AML completo Max 5 interrogazioni',
+        pack: 50,
+        price: 500,
+        image:
+          'https://icon-library.com/images/icon-product/icon-product-4.jpg',
+      },
+    }),
+    prisma.products.upsert({
+      where: { id: 8 },
+      update: {},
+      create: {
+        name: 'AML completo Max 15 interrogazioni',
+        pack: 1,
+        price: 35,
+        image:
+          'https://icon-library.com/images/icon-product/icon-product-4.jpg',
+      },
+    }),
   ])
   console.log(response)
 }
